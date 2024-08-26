@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#yesButton {
+    background-color: transparent;
+    color: #000000;
+    font-size: large;
+    border: rgb(133, 0, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#yesButton:hover{
+    color: #d8d8d8;
+    background-color: rgb(145, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#noButton {
+    background-color: transparent;
+    color: #000000;
+    font-size: large;
+    border: rgb(133, 0, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#noButton:hover{
+    color: #d8d8d8;
+    background-color: rgb(145, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.response {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #333;
+    display: none;
+}
